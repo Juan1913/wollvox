@@ -1,0 +1,131 @@
+ 
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.87)), url(../CORPORATIVO/producto3.png) no-repeat center/cover;
+    height: 100vh;
+    background-attachment: fixed;
+    color: white;
+display: grid;
+flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+#one {
+    display: flex;
+}
+
+#box {
+text-align: center;
+padding-top: 30px;
+}
+#text {
+    color: #2f2f30;
+    text-align: center;
+}
+#blue {color: #42A7ED; cursor: pointer;}
+.form-register {
+    width: 600px;
+background-color: #ffffff;
+    margin: auto;
+    border-radius: 5px;
+    color: #2f2f30;
+    box-shadow: 7px 13px 37px;
+
+}
+
+.form-register h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: rgb(80, 81, 82);
+    text-align: center;
+    padding-top: 30px;
+}
+
+.controls {
+    width: 60%;
+background-color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #cecece;
+    align-items: ;
+color: aliceblue;
+    font-size: 18px;
+    
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+    line-height: 40px;
+}
+
+.form-register .botons {
+    width: 30%;
+    background-color: #42A7ED;
+    border: none;
+    padding: 12px;
+   color: #ffffff;
+    margin: 16px 0;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.form-register img {
+    width: 20PX;
+}
+
+#sign{
+    padding-left: 70PX;
+}
+
+#sign span {
+    font-size: 15px;
+}
+
+#boxblue {
+    background-color: #42A7ED;
+    width: 600px;
+    height: 180px;
+    overflow: hidden;
+    border-left: 0;
+}
+
+#boxblue h3 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+#social {
+    display: flex;
+    width: 300px;
+    margin: auto;
+}
+
+#social {
+align-content: stretch;
+}
+
+#boxblue img {
+   width: 30px;
+   margin: auto;
+   cursor: pointer;
+}
+
+#shark {
+  display: flex;
+  padding-bottom: 33px;
+}
+#shark img {
+align-items: center;
+   width: 68px;
+position: absolute;
+padding-left: 280px;
+color: #2f2f30;
+
+}
